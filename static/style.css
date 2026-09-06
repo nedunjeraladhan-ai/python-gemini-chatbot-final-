@@ -1,0 +1,19 @@
+.dots {
+    display: inline-block;
+    width: 20px;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: typing 1.2s infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 10px;
+    }
+    100% {
+        width: 20px;
+    }
+}
